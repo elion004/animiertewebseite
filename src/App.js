@@ -1,25 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import image1 from './images/DALL-E_Img1.png'
+import {useEffect} from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
+
+
+    return (
+        <div className="App">
+            <header className="App-header">
+                <div data-aos="fade-up">
+                    <img src={image1} alt={"first banana shoe image"}/>
+                </div>
+            </header>
+        </div>
+    );
 }
 
 export default App;
