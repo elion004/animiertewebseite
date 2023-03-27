@@ -1,5 +1,5 @@
 import './App.css';
-import image1 from './images/DALL-E_Img1.png'
+import image1 from './images/dalle-e/DALL-E_Img1.png'
 import {useEffect} from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
