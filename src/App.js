@@ -24,13 +24,13 @@ function App() {
                     justifyContent: 'center',
                     height: '100vh',
                 }}>
-                    <h1>
+                    <h1 style={{fontSize:'500%', fontStyle:'italic'}}>
                         <Typist typingDelay={100} cursor={<span className='cursor'>|</span>}>
-                            Simple banana shoes
-                            <br/>
-                            <Typist.Backspace count={20}/>
-                            <Typist.Delay ms={500}/>
-                            Best banana shoes
+                            Banana shoes are simple, boring and lame.
+                            <Typist.Delay ms={1000}/>
+                            <Typist.Backspace count={24}/>
+                            <Typist.Delay ms={1000}/>
+                            <p style={{color:'red'}}>UNSURPASSABLE, STYLISH AND SIMPLY THE BEST!!!</p>
                         </Typist>
                     </h1>
                 </div>
