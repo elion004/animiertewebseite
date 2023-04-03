@@ -20,8 +20,9 @@ function App() {
 
     return (
         <div style={{backgroundColor: "lightgoldenrodyellow"}}>
-            <header className={'fixed-top'} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <img src={svg1} alt={'banana shoes logo'} style={{width:'250', height:'100px'}}/>
+            <header className={'fixed-top'}
+                    style={{backgroundColor: 'black', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                <img src={svg1} alt={'banana shoes logo'} style={{width: '250', height: '50px'}}/>
             </header>
             <Container>
                 <div className="vh-100 d-flex justify-content-center align-items-center">
@@ -76,13 +77,14 @@ function App() {
                         <Row>
                             <Col>
                                 <p data-aos="fade-down" className="lead text-end">
-                                    The BananaMax 97 shoes are a unique and eye-catching footwear option for those who
-                                    want to make a statement. These shoes feature a bright yellow banana design on the
-                                    exterior, complete with black spots to mimic the fruit's natural appearance. In
-                                    addition, the shoes are infused with a sweet banana scent that will leave you
-                                    feeling energized and refreshed all day long. The BananaMax 97 shoes are perfect for
-                                    those who want to stand out in a crowd and add a touch of fun to their everyday
-                                    look.
+                                    The "Banana Force 01" shoes are the perfect footwear for summer. These shoes are
+                                    made by a wise orangutan who carefully selected the finest materials to ensure both
+                                    comfort and style. The shoes are designed with breathable mesh fabric to keep your
+                                    feet cool and dry on hot summer days. The outsole is made of durable rubber,
+                                    providing excellent traction on any surface. The shoes are also decorated with
+                                    intricate woven patterns, showcasing the orangutan's exquisite craftsmanship. Step
+                                    into the "Banana Force 01" shoes and experience the perfect combination of comfort,
+                                    style, and craftsmanship
                                 </p>
                             </Col>
                             <Col>
@@ -112,13 +114,14 @@ function App() {
                             </Col>
                             <Col>
                                 <p data-aos="flip-left" className="lead text-start">
-                                    The BananaMax 97 shoes are a unique and eye-catching footwear option for those who
-                                    want to make a statement. These shoes feature a bright yellow banana design on the
-                                    exterior, complete with black spots to mimic the fruit's natural appearance. In
-                                    addition, the shoes are infused with a sweet banana scent that will leave you
-                                    feeling energized and refreshed all day long. The BananaMax 97 shoes are perfect for
-                                    those who want to stand out in a crowd and add a touch of fun to their everyday
-                                    look.
+                                    The "Air Banana" shoes are a true wonder of nature. These shoes are crafted from a
+                                    rare species of banana, which grows solely in the Brazilian rainforest. The fibers
+                                    of the banana are meticulously woven into a soft and flexible material that is both
+                                    lightweight and durable. The interior of the shoe is lined with a cozy and
+                                    breathable material that keeps your feet warm and comfortable. With their unique
+                                    "Air" technology, these shoes provide excellent airflow and keep your feet dry and
+                                    fresh. The "Air Banana" shoes are perfect for anyone looking for an eco-friendly,
+                                    sustainable and stylish option for the winter months.
                                 </p>
                             </Col>
                         </Row>
@@ -132,7 +135,7 @@ function App() {
                 <img src={gif1} alt="another dancing banana" style={{maxWidth: '100px', maxHeight: '100px'}}/>
             </footer>
         </div>
-);
+    );
 }
 
 export default App;
