@@ -31,20 +31,20 @@ function App() {
                 </div>
 
                 <div className="text-center vh-100">
-                    <h2 className="fw-normal display-2">
+                    <h2>
                         Banana shoe 01
                     </h2>
                     <br/>
                     <div className="text-center align-middle">
 
                         <Row>
-                            <Col style={{width: '200px'}}>
+                            <Col>
                                 <div data-aos="fade-up">
-                                    <img src={image1} alt={'shoe number one'} style={{height: '200px'}}/>
+                                    <img src={image1} alt={'shoe number one'} style={{height: '300px', borderRadius:'10px'}}/>
                                 </div>
                             </Col>
                             <Col>
-                                <p data-aos="fade-down" className="lead">
+                                <p data-aos="fade-down" className="lead text-start">
                                     <LoremIpsum>
                                     </LoremIpsum>
                                 </p>
