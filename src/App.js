@@ -19,7 +19,7 @@ function App() {
         <div style={{backgroundColor: "lightgoldenrodyellow"}}>
             <Container>
                 <div className="vh-100 d-flex justify-content-center align-items-center">
-                    <h1 style={{fontSize:'500%', fontStyle:'italic'}}>
+                    <h1 style={{fontSize:'500%', fontStyle:'italic'}} className="text-center">
                         <Typist typingDelay={100} cursor={<span className='cursor'>|</span>}>
                             Banana shoes are simple, boring and lame.
                             <Typist.Delay ms={1000}/>
