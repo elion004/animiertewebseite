@@ -1,8 +1,9 @@
 import './App.css';
+import gif1 from './images/dancingBanana.gif'
+import svg1 from './images/banana.svg'
 import image1 from './images/dalle-e/DALL-E_Img1.png'
 import image2 from './images/dalle-e/DALL-E_Img2.png'
 import image3 from './images/dalle-e/DALL-E_Img3.png'
-import gif1 from './images/output-onlinegiftools.gif'
 import {useEffect} from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -19,9 +20,12 @@ function App() {
 
     return (
         <div style={{backgroundColor: "lightgoldenrodyellow"}}>
+            <header className={'fixed-top'} style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <img src={svg1} alt={'banana shoes logo'} style={{width:'250', height:'100px'}}/>
+            </header>
             <Container>
                 <div className="vh-100 d-flex justify-content-center align-items-center">
-                    <h1 style={{fontSize: '500%', fontStyle: 'italic'}} className="text-center">
+                    <h1 style={{fontSize: '500%', fontStyle: 'italic', fontWeight: 'bold'}} className="text-center">
                         <Typist typingDelay={100} cursor={<span className='cursor'>|</span>}>
                             Banana shoes are simple, boring and lame.
                             <Typist.Delay ms={1000}/>
@@ -32,9 +36,9 @@ function App() {
                     </h1>
                 </div>
 
-                {/*Shoe number 01*/}
                 <div className="text-center vh-100">
-                    <h2 data-aos='fade-up' className="fw-normal display-2">
+                    <h2 data-aos='fade-up' className="fw-normal display-2"
+                        style={{fontStyle: 'italic', fontWeight: 'bold'}}>
                         BananaMax 97
                     </h2>
                     <br/>
@@ -119,15 +123,16 @@ function App() {
                             </Col>
                         </Row>
                     </div>
+
                 </div>
-
-
             </Container>
-            <footer className={'fixed-bottom'}>
-                <img src={gif1} alt="a dancing banana" style={{maxWidth: '125px', maxHeight: '125px'}}/>
+            <footer className={'fixed-bottom'}
+                    style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+                <img src={gif1} alt="a dancing banana" style={{maxWidth: '100px', maxHeight: '100px'}}/>
+                <img src={gif1} alt="another dancing banana" style={{maxWidth: '100px', maxHeight: '100px'}}/>
             </footer>
         </div>
-    );
+);
 }
 
 export default App;
