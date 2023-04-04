@@ -21,8 +21,14 @@ function App() {
     return (
         <div style={{backgroundColor: "lightgoldenrodyellow"}}>
             <header className={'fixed-top'}
-                    style={{backgroundColor: 'black', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                <img src={svg1} alt={'banana shoes logo'} style={{width: '250', height: '50px'}}/>
+                    style={{
+                        backgroundColor: 'lightgoldenrodyellow',
+                        borderBottom: '2px solid black',
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center'
+                    }}>
+                <img src={svg1} alt={'banana shoes logo'} style={{width: '250px', height: '50px'}}/>
             </header>
             <Container>
                 <div className="vh-100 d-flex justify-content-center align-items-center">
