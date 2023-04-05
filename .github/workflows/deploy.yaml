@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - "master"
+      - "master" #second try
 
 permissions:
   contents: read
