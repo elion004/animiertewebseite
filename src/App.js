@@ -18,7 +18,7 @@ function App() {
         AOS.refresh();
     }, []);
 
-    const [isHovered, setIsHovered] = useState(false);
+    const [, setIsHovered] = useState(false);
     const [imageSrc, setImageSrc] = useState(image0);
 
     const handleMouseOver = () => {
